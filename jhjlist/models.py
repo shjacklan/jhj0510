@@ -46,7 +46,7 @@ class Jhjlist(models.Model):
 
     # 后台管理系统中的名称
         verbose_name = '交换机-列表'
-
+        verbose_name_plural = '交换机-列表'
 
 
     def __str__(self):
